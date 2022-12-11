@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./navbar.css";
+import { GoThreeBars } from "react-icons/go";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -63,7 +64,7 @@ const Navbar = () => {
             </li>
           </ul>
           <div className="nav-icon" onClick={handleClick}>
-            <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
+            <i className={click ? <GoThreeBars /> : <GoThreeBars />}><GoThreeBars /></i>
           </div>
         </div>
       </nav>
