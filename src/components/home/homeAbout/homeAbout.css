@@ -1,0 +1,53 @@
+.home_about_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7F7F7;
+}
+
+.home_about_section{
+        display: flex;
+        margin-left: 55px;
+        margin-right: 55px;
+        margin-top: 120px;
+        margin-bottom: 80px;
+}
+.home_about_img img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 555px;
+}
+
+
+
+
+/* mobile */
+@media only screen and (max-width: 480px) {
+    .home_about_section{
+        display: block;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+}
+.home_about_img img{
+    height: auto;
+    width: 300px;
+}
+
+}
+
+
+/* tab */
+@media only screen and (max-width: 868px) {
+    .home_about_section{
+        display: block;
+        margin-left: 45px;
+        margin-right: 45px;
+        margin-top: 45px;
+        margin-bottom: 45px;
+}
+
+}
