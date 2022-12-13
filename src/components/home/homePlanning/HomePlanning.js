@@ -7,7 +7,7 @@ const HomePlanning = ({ homePlanning }) => {
 
   return (
     <div>
-      <h1>{info}</h1>
+      <h1>{img}</h1>
     </div>
   );
 };

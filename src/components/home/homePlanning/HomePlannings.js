@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from "react";
 import HomePlanning from "./HomePlanning";
 import "./homePlannings.css";
+import homePlanningData from "../../../data/homePlanData.json";
 
 const HomePlannings = () => {
   const [homePlannings, setHomePlannings] = useState([]);
 
   useEffect(() => {
-    fetch("homePlanningsData.json")
+    fetch(homePlanningData)
       .then((response) => response.json())
       .then((data) => setHomePlannings(data));
   }, []);
@@ -17,7 +18,7 @@ const HomePlannings = () => {
       <h1>Our Process</h1>
 
       <div>
-        {homePlannings.map((homePlanning) => (
+        {homePlanningData.map((homePlanning) => (
           <HomePlanning
             key={homePlannings.id}
             homePlanning={homePlanning}
