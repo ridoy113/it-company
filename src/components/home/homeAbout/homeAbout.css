@@ -20,7 +20,7 @@
     width: 555px;
 }
 .home_about_info{
-    margin-top: -20px;
+    margin-top: -10px;
     margin-left: 30px;
     margin-right: 100px;
 }
@@ -36,8 +36,48 @@
     font-size: 40px;
     line-height: 50px;
 }
+.home_about_info p{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27px;
+}
 
-
+.home_about_get_container{
+    display: flex;
+    background: white;
+    padding: 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+.home_about_get_container_img{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.home_about_get_container img{
+    width: auto;
+    height: 35.99px;
+    background: #F7F7F7;
+    padding: 0.9rem;
+    border-radius: 0.4rem;
+    margin-right: 2rem;
+}
+.home_about_get_container h4{
+    color: #0E1F51;
+    margin-top: 15px;
+    letter-spacing: 2px;
+}
+.home_about_get_container p{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 25px;
+}
+.home_about_get_container span{
+    color: #FF3E54;
+    margin-left: 5px;
+    letter-spacing: 2px;
+}
 
 
 /* mobile */
@@ -65,6 +105,35 @@
     line-height: 32px;
     margin-top: 25px;
 }
+.home_about_info p{
+    color: black;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.home_about_get_container img{
+    width: auto;
+    height: 30px;
+    background: #F7F7F7;
+    padding: 0.7rem;
+    border-radius: 0.4rem;
+    margin-right: 2rem;
+}
+.home_about_get_container h4{
+    color: #0E1F51;
+    margin-top: 15px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.home_about_get_container p{
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+.home_about_get_container span{
+    color: #FF3E54;
+    margin-left: 5px;
+}
 
 }
 
@@ -90,6 +159,20 @@
     font-size: 30px;
     line-height: 35px;
     margin-top: 25px;
+}
+.home_about_info p{
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+}
+.home_about_get_container img{
+    width: auto;
+    height: 32px;
+    background: #F7F7F7;
+    padding: 0.8rem;
+    border-radius: 0.4rem;
+    margin-right: 2rem;
 }
 
 

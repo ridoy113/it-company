@@ -23,9 +23,11 @@ const HomeAbout = () => {
             </p>
 
             <div className="home_about_get_container">
-              <img src={homeAboutGetImg} alt="" />
+              <div className="home_about_get_container_img">
+                <img src={homeAboutGetImg} alt="" />
+              </div>
               <div className="home_about_get_info">
-                <h5>Get Instant Professional Advice</h5>
+                <h4>Get Instant Professional Advice</h4>
                 <p>
                   Ready to Help : <span>+880 1874997427</span>
                 </p>
