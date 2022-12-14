@@ -15,24 +15,19 @@ const HomePlannings = () => {
           return (
             <div className="home_plan_grid_single_card">
               <div className="home_plan_img_section">
-                <img
-                  className="home_plan_img_1"
-                  src={homePlanData.img}
-                  alt=""
-                />
-                <img
-                  className="home_plan_img_2"
-                  src={homePlanData.numberImg}
-                  alt=""
-                />
+                <div className="home_plan_img_1">
+                  <img src={homePlanData.img} alt="" />
+                </div>
+
+                <div className="home_plan_img_2">
+                  <img src={homePlanData.numberImg} alt="" />
+                </div>
               </div>
 
-              <h3>{homePlanData.title}</h3>
-              <img
-                className="home_plan_img_3"
-                src={homePlanData.titleUnderImg}
-                alt=""
-              />
+              <h2>{homePlanData.title}</h2>
+              <div className="home_plan_img_3">
+                <img src={homePlanData.titleUnderImg} alt="" />
+              </div>
               <p>{homePlanData.info}</p>
             </div>
           );

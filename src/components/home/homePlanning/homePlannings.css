@@ -36,7 +36,45 @@
     padding-right: 10px;
     padding-bottom: 30px;
     padding-left: 30px;
+    border-radius: 8px;
+}
+.home_plan_img_section{
+    display: flex;
+    justify-content: space-between;
+}
+.home_plan_img_1 img{
+    height: 50px;
+    width: auto;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: white;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+.home_plan_img_2 img{
+    height: 40px;
+    width: auto;
+    cursor: no-drop;
+}
+.home_plan_grid_single_card h2{
+    color: #0E1F51;
+    font-weight: 800;
+    font-size: 25px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.home_plan_img_3 img{
+    height: 6px;
+    width: auto;
+}
+.home_plan_grid_single_card p{
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 8px;
+
 }
 
 
@@ -61,11 +99,41 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
+    .home_plan_img_1 img{
+        height: 38px;
+        width: auto;
+        margin-top: 15px;
+        padding: 11px;
+        background-color: white;
+        border-radius: 5px;
+    }
+    .home_plan_img_2 img{
+        height: 25px;
+        width: auto;
+    }
+    .home_plan_grid_single_card h2{
+        color: #0E1F51;
+        font-weight: 700;
+        font-size: 20px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .home_plan_img_3 img{
+        height: 5px;
+        width: auto;
+    }
+    .home_plan_grid_single_card p{
+        color: black;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        margin-top: 5px;
+    }
 }
 
 
 /* tab */
-@media only screen and (min-width: 481px) and (max-width: 800px) {
+@media only screen and (min-width: 481px) and (max-width: 900px) {
     .home_plan_container{
         margin-left: 70px;
         margin-right: 70px;
@@ -81,5 +149,17 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         justify-content: center;
+    }
+    .home_plan_img_1 img{
+        height: 42px;
+        width: auto;
+        margin-top: 15px;
+        padding: 13px;
+        background-color: white;
+        border-radius: 5px;
+    }
+    .home_plan_img_2 img{
+        height: 30px;
+        width: auto;
     }
 }

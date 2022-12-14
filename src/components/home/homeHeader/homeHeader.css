@@ -87,7 +87,7 @@ padding-left: 81px;
 
 
 /* tab */
-@media only screen and (min-width: 481px) and (max-width: 800px) {
+@media only screen and (min-width: 481px) and (max-width: 900px) {
     .home_header{
         display: block;
         justify-content: center;
