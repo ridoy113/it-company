@@ -11,10 +11,27 @@ const HomePlannings = () => {
       <div>
         {homePlanDatas.map((homePlanData) => {
           return (
-            <div className="dome_plan_grid_container">
-              <div>
-                <img src={homePlanData.img} alt="" />
+            <div className="home_plan_grid_container">
+              <div className="home_plan_img_section">
+                <img
+                  className="home_plan_img_1"
+                  src={homePlanData.img}
+                  alt=""
+                />
+                <img
+                  className="home_plan_img_2"
+                  src={homePlanData.numberImg}
+                  alt=""
+                />
               </div>
+
+              <h3>{homePlanData.title}</h3>
+              <img
+                className="home_plan_img_3"
+                src={homePlanData.titleUnderImg}
+                alt=""
+              />
+              <p>{homePlanData.info}</p>
             </div>
           );
         })}
