@@ -1,26 +1,42 @@
 .home_plan_container{
     margin-left: 150px;
     margin-right: 150px;
-    margin-top: 100px;
+    margin-top: 80px;
     margin-bottom: 100px;
 }
-
 .home_plan_header{
     display: grid;
     justify-content: center;
-    
-
 }
 .home_plan_header h4{
     display: grid;
     justify-content: center;
+    color: #FF3E54;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: -20px;
+}
+.home_plan_header h1{
+    color: #0E1F51;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
 }
 
 .home_plan_grid_container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-content: center;
-
+    grid-gap: 30px;
+    margin-top: 40px;
+}
+.home_plan_grid_single_card{
+    background-color: #F7F7F7;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    border-radius: 5px;
 }
 
 
@@ -33,6 +49,18 @@
         margin-top: 30px;
         margin-bottom: 30px;
     }    
+    .home_plan_header h4{
+        font-weight: 500;
+    }
+    .home_plan_header h1{
+    font-size: 27px;
+    line-height: 32px;
+    margin-top: 25px;
+    }
+    .home_plan_grid_container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 
@@ -44,4 +72,14 @@
         margin-top: 50px;
         margin-bottom: 50px;
     } 
+    .home_plan_header h1{
+    font-size: 30px;
+    line-height: 35px;
+    margin-top: 25px;
+    }
+    .home_plan_grid_container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+    }
 }
