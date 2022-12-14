@@ -4,7 +4,7 @@ import homePlanDatas from "../../../data/homePlanData.json";
 
 const HomePlannings = () => {
   return (
-    <div>
+    <div className="home_plan_container">
       <div className="home_plan_header">
         <h4>\ Planning \</h4>
         <h1>Our Process</h1>

@@ -1,4 +1,17 @@
+.home_plan_container{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
 .home_plan_header{
+    display: grid;
+    justify-content: center;
+    
+
+}
+.home_plan_header h4{
     display: grid;
     justify-content: center;
 }
@@ -8,4 +21,27 @@
     grid-template-columns: repeat(4, 1fr);
     justify-content: center;
 
+}
+
+
+
+/* mobile */
+@media only screen and (min-width: 280px) and (max-width: 480px) {
+    .home_plan_container{
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }    
+}
+
+
+/* tab */
+@media only screen and (min-width: 481px) and (max-width: 800px) {
+    .home_plan_container{
+        margin-left: 70px;
+        margin-right: 70px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    } 
 }
