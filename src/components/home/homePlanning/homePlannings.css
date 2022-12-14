@@ -1,0 +1,11 @@
+.home_plan_header{
+    display: grid;
+    justify-content: center;
+}
+
+.home_plan_grid_container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+
+}
