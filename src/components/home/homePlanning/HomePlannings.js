@@ -1,29 +1,23 @@
-import React, { useEffect, useState } from "react";
-import HomePlanning from "./HomePlanning";
+import React from "react";
 import "./homePlannings.css";
-import homePlanningData from "../../../data/homePlanData.json";
+import homePlanDatas from "../../../data/homePlanData.json";
 
 const HomePlannings = () => {
-  const [homePlannings, setHomePlannings] = useState([]);
-
-  useEffect(() => {
-    fetch(homePlanningData)
-      .then((response) => response.json())
-      .then((data) => setHomePlannings(data));
-  }, []);
-
   return (
     <div>
       <h4>\ Planning \</h4>
       <h1>Our Process</h1>
 
       <div>
-        {homePlanningData.map((homePlanning) => (
-          <HomePlanning
-            key={homePlannings.id}
-            homePlanning={homePlanning}
-          ></HomePlanning>
-        ))}
+        {homePlanDatas.map((homePlanData) => {
+          return (
+            <div className="dome_plan_grid_container">
+              <div>
+                <img src={homePlanData.img} alt="" />
+              </div>
+            </div>
+          );
+        })}
       </div>
     </div>
   );
