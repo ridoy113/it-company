@@ -1,6 +1,8 @@
 import React from "react";
 import "./homeWhat.css";
 import homeWhatImg from "../../../assets/Mask group (1).png";
+import hwSmallimg1 from "../../../assets/Black (5).png";
+import hwSmallimg2 from "../../../assets/Black (6).png";
 
 const HomeWhat = () => {
   return (
@@ -21,6 +23,32 @@ const HomeWhat = () => {
               distribution of letters, as opposed, Lorem Ipsum is that it has a
               more-or-less normal distribution of letters, as opposed
             </p>
+
+            <div className="home_what_small_card">
+              <div className="home_what_single_card">
+                <img src={hwSmallimg1} alt="" />
+                <div className="home_what_single_card_info">
+                  <h5>Our Vision</h5>
+                  <p>
+                    It is a long esta <br />
+                    -blished fact that
+                  </p>
+                </div>
+              </div>
+
+              <div className="home_what_single_card">
+                <img src={hwSmallimg2} alt="" />
+                <div className="home_what_single_card_info">
+                  <h5>Our Goal</h5>
+                  <p>
+                    It is a long esta <br />
+                    -blished fact that
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            
           </div>
         </div>
       </div>
