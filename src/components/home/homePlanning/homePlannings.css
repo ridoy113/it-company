@@ -129,6 +129,14 @@
         line-height: 22px;
         margin-top: 5px;
     }
+    .home_plan_grid_single_card p{
+        color: black;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 8px;
+    
+    }
 }
 
 
@@ -161,5 +169,13 @@
     .home_plan_img_2 img{
         height: 30px;
         width: auto;
+    }
+    .home_plan_grid_single_card p{
+        color: black;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 8px;
+    
     }
 }
