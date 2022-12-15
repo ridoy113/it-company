@@ -18,7 +18,9 @@ const HomeServices = () => {
                 <div className="home_services_grid_img">
                   <img src={homeServicesData.img} alt="" />
                 </div>
+
                 <h3>{homeServicesData.title}</h3>
+
                 <div className="home_services_grid_undertitleimg">
                   <img src={homeServicesData.titleUnderImg} alt="" />
                 </div>

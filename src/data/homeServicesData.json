@@ -1,44 +1,44 @@
 [
     {
         "id": 1,
-        "img" :"../assets/Black (7).png",
+        "img" :"https://i.ibb.co/V2SsKgG/Black-12.png",
         "title" : "Web Design / Development",
-        "titleUnderImg" : "../assets/Group 21 (1).png",
+        "titleUnderImg" : "https://i.ibb.co/56W1wdh/Group-21-1.png",
         "info" : "It is a long established fact that a reader will be distra by the readable content of a page when looking at its layout, when looking at its layout"
     },
     {
         "id": 2,
-        "img" :"../assets/Black (8).png",
+        "img" :"https://i.ibb.co/VMtGQDQ/Black-11.png",
         "title" : "UI/UX Design",
-        "titleUnderImg" : "../assets/Group 21 (1).png",
+        "titleUnderImg" : "https://i.ibb.co/56W1wdh/Group-21-1.png",
         "info" : "It is a long established fact that a reader will be distra by the readable content of a page when looking at its layout, when looking at its layout"
     },
     {
         "id": 3,
-        "img" :"../assets/Black (9).png",
+        "img" :"https://i.ibb.co/xLGV4DK/Black-10.png",
         "title" : "Website Migration",
-        "titleUnderImg" : "../assets/Group 21 (1).png",
+        "titleUnderImg" : "https://i.ibb.co/56W1wdh/Group-21-1.png",
         "info" : "It is a long established fact that a reader will be distra by the readable content of a page when looking at its layout, when looking at its layout"
     },
     {
         "id": 4,
-        "img" :"../assets/Black (10).png",
+        "img" :"https://i.ibb.co/5j2Y0pQ/Black-9.png",
         "title" : "App Development",
-        "titleUnderImg" : "../assets/Group 21 (1).png",
+        "titleUnderImg" : "https://i.ibb.co/56W1wdh/Group-21-1.png",
         "info" : "It is a long established fact that a reader will be distra by the readable content of a page when looking at its layout, when looking at its layout"
     },
     {
         "id": 5,
-        "img" :"../assets/Black (11).png",
+        "img" :"https://i.ibb.co/kJdqg1H/Black-8.png",
         "title" : "HubSpot Integration",
-        "titleUnderImg" : "../assets/Group 21 (1).png",
+        "titleUnderImg" : "https://i.ibb.co/56W1wdh/Group-21-1.png",
         "info" : "It is a long established fact that a reader will be distra by the readable content of a page when looking at its layout, when looking at its layout"
     },
     {
         "id": 6,
-        "img" :"../assets/Black (12).png",
+        "img" :"https://i.ibb.co/Yh173nn/Black-7.png",
         "title" : "Email Marketing",
-        "titleUnderImg" : "../assets/Group 21 (1).png",
+        "titleUnderImg" : "https://i.ibb.co/56W1wdh/Group-21-1.png",
         "info" : "It is a long established fact that a reader will be distra by the readable content of a page when looking at its layout, when looking at its layout"
     }
 ]
