@@ -57,7 +57,7 @@
     margin-bottom: -15px;
 }
 .home_what_single_card_info p{
-    line-height: 22px;
+    line-height: 20px;
 }
 
 .home_what_img{
@@ -70,6 +70,9 @@
     align-items: center;
     height: 398px;
     width: auto;
+}
+.home_what_single_card_info h4{
+    margin-bottom: -4px;
 }
 
 
@@ -110,6 +113,15 @@
     }
     .home_what_info h3{
         margin-top: 20px;
+    }
+    .home_what_single_card_info h4{
+        margin-bottom: -8px;
+        font-size: 14px;
+    }
+    .home_what_single_card_info p{
+        line-height: 18px;
+        font-size: 13px;
+        font-weight: 400;
     }
 }
 

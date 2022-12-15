@@ -31,10 +31,7 @@ const HomeWhat = () => {
                 </div>
                 <div className="home_what_single_card_info">
                   <h4>Our Vision</h4>
-                  <p>
-                    It is a long esta <br />
-                    -blished fact that
-                  </p>
+                  <p>It is a long esta-blished fact that</p>
                 </div>
               </div>
 
@@ -44,10 +41,7 @@ const HomeWhat = () => {
                 </div>
                 <div className="home_what_single_card_info">
                   <h4>Our Goal</h4>
-                  <p>
-                    It is a long esta <br />
-                    -blished fact that
-                  </p>
+                  <p>It is a long esta-blished fact that</p>
                 </div>
               </div>
             </div>
