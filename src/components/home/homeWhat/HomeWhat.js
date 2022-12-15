@@ -9,12 +9,12 @@ const HomeWhat = () => {
     <>
       <div className="home_about_container">
         <div className="what_about_section">
-          <div className="home_about_img">
+          <div className="home_what_img">
             <img src={homeWhatImg} alt="" />
           </div>
 
-          <div className="home_about_info">
-            <h4>\ What We Do \</h4>
+          <div className="home_what_info">
+            <h3 className="home_what_info_title">\ What We Do \</h3>
             <h1>We Develope Product That People Love to Use.</h1>
             <p>
               It is a long established fact that a reader will be distracted by
@@ -26,9 +26,11 @@ const HomeWhat = () => {
 
             <div className="home_what_small_card">
               <div className="home_what_single_card">
-                <img src={hwSmallimg1} alt="" />
+                <div className="home_what_single_card_img">
+                  <img src={hwSmallimg1} alt="" />
+                </div>
                 <div className="home_what_single_card_info">
-                  <h5>Our Vision</h5>
+                  <h4>Our Vision</h4>
                   <p>
                     It is a long esta <br />
                     -blished fact that
@@ -37,9 +39,11 @@ const HomeWhat = () => {
               </div>
 
               <div className="home_what_single_card">
-                <img src={hwSmallimg2} alt="" />
+                <div className="home_what_single_card_img">
+                  <img src={hwSmallimg2} alt="" />
+                </div>
                 <div className="home_what_single_card_info">
-                  <h5>Our Goal</h5>
+                  <h4>Our Goal</h4>
                   <p>
                     It is a long esta <br />
                     -blished fact that
@@ -47,8 +51,6 @@ const HomeWhat = () => {
                 </div>
               </div>
             </div>
-
-            
           </div>
         </div>
       </div>

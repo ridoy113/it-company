@@ -12,6 +12,10 @@
         margin-top: 120px;
         margin-bottom: 80px;
 }
+.home_about_img{
+    display: grid;
+    align-items: center;
+}
 .home_about_img img{
     display: flex;
     justify-content: center;
@@ -34,7 +38,7 @@
     color: #0E1F51;
     font-weight: 700;
     font-size: 40px;
-    line-height: 50px;
+    line-height: 45px;
 }
 .home_about_info p{
     color: black;
@@ -47,6 +51,8 @@
     display: flex;
     background: white;
     padding: 1.2rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
     border-radius: 0.4rem;
     cursor: pointer;
 }

@@ -1,21 +1,115 @@
+.home_what_info {
+    margin-left: 30px;
+}
+.home_what_info h4{
+    color: #FF3E54;
+    font-weight: 700;
+    line-height: 20px;
+}
+.home_what_info h1{
+    color: #0E1F51;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+}
+.home_what_info p{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
 .what_about_section{
     display: flex;
     margin-left: 150px;
     margin-right: 150px;
     margin-top: 80px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
+}
+.home_what_small_card{
+    display: flex;
+    gap: 20px;
+}
+.home_what_single_card{
+    background-color: white;
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 10px;
+}
+.home_what_single_card_img{
+    display: grid;
+    align-items: center;
+}
+.home_what_single_card_img img{
+    height: 40px;
+    width: auto;
+    background-color: #fae5e8;
+    padding: 15px;
+    border-radius: 5px;
+}
+.home_what_info h3{
+    margin-top: -0px;
+    color: #FF3E54;
+    font-size: 15px;
+    margin-bottom: -15px;
+}
+.home_what_single_card_info p{
+    line-height: 22px;
+}
+
+.home_what_img{
+    display: grid;
+    align-items: center;
+}
+.home_what_img img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 398px;
+    width: auto;
 }
 
 
 
 /* mobile */
 @media only screen and (min-width: 280px) and (max-width: 480px) {
+    .home_what_info {
+        margin-left: 0px;
+    }
     .what_about_section{
         display: block;
         margin-left: 30px;
         margin-right: 30px;
         margin-top: 30px;
         margin-bottom: 30px;
+    }
+    .home_what_small_card{
+        display: block;
+    }
+    .home_what_single_card{
+        margin-top: 25px;
+    }
+    .home_what_single_card_img img{
+        height: 30px;
+        padding: 12px;
+        border-radius: 5px;
+    }
+    .home_what_info h1{
+        color: #0E1F51;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 32px;
+    margin-top: 25px;
+    }
+    .home_what_img img{
+        height: 240px;
+    width: 100%;
+    }
+    .home_what_info h3{
+        margin-top: 20px;
     }
 }
 
@@ -30,5 +124,28 @@
         margin-right: 70px;
         margin-top: 50px;
         margin-bottom: 50px;
+    }
+    .home_what_info {
+        margin-left: 0px;
+    }
+    .home_what_info h1{
+        color: #0E1F51;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    margin-top: 25px;
+    }
+    .home_what_img img{
+     height: 380px;
+     width: 100%;
+    }
+    .home_what_small_card{
+        display: block;
+    }
+    .home_what_single_card{
+        margin-top: 25px;
+    }
+    .home_what_info h3{
+        margin-top: 25px;
     }
 }
