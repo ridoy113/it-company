@@ -33,6 +33,18 @@ font-weight: 700;
     grid-gap: 30px;
     margin-top: 20px;
 }
+.home_services_single_grid_card{
+    background-color: #F7F7F7;
+    padding: 30px;
+    border-radius: 8px;
+}
+.home_services_grid_img img{
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    height: 50px;
+    width: auto;
+}
 
 
 
@@ -67,6 +79,18 @@ font-weight: 700;
             justify-content: center;
             align-items: center;
             grid-gap: 30px;
+        }
+        .home_services_single_grid_card{
+            background-color: #F7F7F7;
+            padding: 25px;
+            border-radius: 7px;
+        }
+        .home_services_grid_img img{
+            background-color: white;
+            padding: 12px;
+            border-radius: 4px;
+            height: 40px;
+            width: auto;
         }
 }
 
