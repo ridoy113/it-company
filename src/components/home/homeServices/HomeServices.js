@@ -7,7 +7,9 @@ const HomeServices = () => {
     <>
       <div className="home_services_container">
         <div className="home_services_title">
-          <h3>\ Services \</h3>
+          <div className="home_services_small_title">
+            <h3>\ Services \</h3>
+          </div>
           <h1>Our Expertice</h1>
         </div>
 
