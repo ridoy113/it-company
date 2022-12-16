@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "img": "https://i.ibb.co/mcH20DV/Rectangle-17.png",
+        "name": "Larry F. Burnett",
+        "jobTitle": "CEO"
+    },
+    {
+        "id": 2,
+        "img": "https://i.ibb.co/9yc3VgN/Rectangle-16.png",
+        "name": "Meghan J. Webb",
+        "jobTitle": "CTO"
+    },
+    {
+        "id": 3,
+        "img": "https://i.ibb.co/9r7F5WZ/Rectangle-15.png",
+        "name": "Yvonne J. Cullum",
+        "jobTitle": "CFO"
+    },
+    {
+        "id": 4,
+        "img": "https://i.ibb.co/RpgpZjk/Rectangle-14.png   ",
+        "name": "Diana H. Williams",
+        "jobTitle": "COO"
+    }
+]
