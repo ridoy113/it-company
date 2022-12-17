@@ -23,7 +23,9 @@ const HomeTeam = () => {
 
                 <div className="home_team_grid_title">
                   <h4>{homeTeamData.name}</h4>
-                  <p>{homeTeamData.jobTitle}</p>
+                  <div className="home_team_grid_job_title">
+                    <p>{homeTeamData.jobTitle}</p>
+                  </div>
                 </div>
               </div>
             );

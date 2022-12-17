@@ -47,8 +47,22 @@
     align-items: center;
     justify-content: center;
 }
-
-
+.home_team_grid_title h4{
+    color: #FF3E54;
+    font-size: 20px;
+    font-weight: 700;
+}
+.home_team_grid_job_title{
+    display: grid;
+    justify-content: center;
+    margin-top: -32px;
+}
+.home_team_grid_job_title p{
+    color: #0E1F51;
+    font-size: 16px;
+    font-weight: 500
+    ;
+}
 
 
 
@@ -81,6 +95,23 @@
         height: 200px;
         width: auto;
     }
+    .home_team_grid_title{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+    .home_team_grid_title h4{
+        color: #FF3E54;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .home_team_grid_job_title p{
+        color: #0E1F51;
+        font-size: 14px;
+        font-weight: 500
+        ;
+    }
+    
 }
 
 
@@ -110,5 +141,8 @@
 .home_team_grid-img img{
     height: 240px;
     width: auto;
+}
+.home_team_grid_title h4{
+    margin-top: -0px;
 }
 }
