@@ -4,6 +4,7 @@ import HomeHeader from "./homeHeader/HomeHeader";
 import HomePlannings from "./homePlanning/HomePlannings";
 import HomeServices from "./homeServices/HomeServices";
 import HomeTeam from "./homeTeam/HomeTeam";
+import HomeTouch from "./homeTouch/HomeTouch";
 import HomeWhat from "./homeWhat/HomeWhat";
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
       <HomeWhat />
       <HomeServices />
       <HomeTeam />
+      <HomeTouch />
     </>
   );
 };
