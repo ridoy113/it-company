@@ -23,7 +23,9 @@ const HomeTouch = () => {
               <button>Send Now</button>
             </div>
 
-            <div className="home_touch_grid-2"></div>
+            <div className="home_touch_grid-2">
+                
+            </div>
           </div>
         </div>
       </div>
