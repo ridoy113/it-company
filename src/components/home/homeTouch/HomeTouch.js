@@ -11,8 +11,20 @@ const HomeTouch = () => {
             <h1>Hey! Let’s Talk</h1>
           </div>
 
+          <div className="home_touch_grid">
+            <div className="home_touch_grid-1">
+              <input type="text" placeholder="Name" /> <br />
+              <input type="text" placeholder="Email" />
+              <br />
+              <input type="number" placeholder="Number" />
+              <br />
+              <textarea type="text" placeholder="Your Message"></textarea>
+              <br />
+              <button>Send Now</button>
+            </div>
 
-          
+            <div className="home_touch_grid-2"></div>
+          </div>
         </div>
       </div>
     </>
