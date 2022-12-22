@@ -4,6 +4,27 @@
 .home_touch_container{
     padding: 100px;
 }
+.home_touch_title{
+    display: grid;
+    justify-content: center;
+}
+.home_touch_small_title{
+    display: grid;
+    justify-content: center;
+}
+.home_touch_small_title h3{
+    color: #FF3E54;
+    font-size: 18px;
+    font-weight: 700;
+}
+.home_touch_title h1{
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    margin-top: -10px;
+}
+
 
 
 
@@ -19,6 +40,12 @@
         padding-top: 30px;
         padding-bottom: 30px;
     }
+    .home_touch_title h1{
+        font-size: 27px;
+        line-height: 32px;
+        margin-top: 25px;
+        margin-top: -10px;
+    }
 }
 
 
@@ -33,5 +60,11 @@
         padding-right: 70px;
         padding-top: 40px;
         padding-bottom: 40px;
+    }
+    .home_touch_title h1{
+        font-size: 30px;
+        line-height: 35px;
+        margin-top: 25px;
+        margin-top: -10px;
     }
 }

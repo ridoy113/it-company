@@ -14,7 +14,9 @@ const HomeTouch = () => {
       <div className="home_touch_section">
         <div className="home_touch_container">
           <div className="home_touch_title">
-            <h4>\ Get In Touch \</h4>
+            <div className="home_touch_small_title">
+              <h3>\ Get In Touch \</h3>
+            </div>
             <h1>Hey! Let’s Talk</h1>
           </div>
 
