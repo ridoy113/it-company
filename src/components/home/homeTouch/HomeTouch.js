@@ -34,26 +34,32 @@ const HomeTouch = () => {
 
             <div className="home_touch_grid-2">
               <div className="home_touch_grid-2_talk">
-                <img src={social1} alt="" />
+                <div className="home_touch_grid-2_talk_img">
+                  <img src={social1} alt="" />
+                </div>
                 <div className="home_touch_grid-2_talk-info">
                   <h4>Call Anytime</h4>
                   <p>+880 1874997427</p>
-                  <p>+880 1959697531</p>
                 </div>
               </div>
+
               <div className="home_touch_grid-2_talk">
-                <img src={social2} alt="" />
+                <div className="home_touch_grid-2_talk_img">
+                  <img src={social2} alt="" />
+                </div>
                 <div className="home_touch_grid-2_talk-info">
                   <h4>Send Email</h4>
-                  <p>almamounhridoy113@gmail.com</p>
                   <p>ridoy123@gmail.com</p>
                 </div>
               </div>
+
               <div className="home_touch_grid-2_talk">
-                <img src={social3} alt="" />
+                <div className="home_touch_grid-2_talk_img">
+                  <img src={social3} alt="" />
+                </div>
                 <div className="home_touch_grid-2_talk-info">
                   <h4>Visit Us</h4>
-                  <p>20 Island Park Road, New Jearsy, New York, USA</p>
+                  <p>Comilla, Bangladesh</p>
                 </div>
               </div>
 
