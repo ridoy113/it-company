@@ -64,12 +64,16 @@ const HomeTouch = () => {
               </div>
 
               <div className="home_touch_grid-2_social-info">
-                <h4>Follow us</h4>
-                <div className="home_touch_grid-2_social_logo">
-                  <img src={social4} alt="" />
-                  <img src={social5} alt="" />
-                  <img src={social6} alt="" />
-                  <img src={social7} alt="" />
+                <div className="home_touch_grid-2_social-info_title">
+                  <h4>Follow us</h4>
+                </div>
+                <div className="home_touch_grid-2_social_logo_img">
+                  <div className="home_touch_grid-2_social_logo">
+                    <img src={social4} alt="" />
+                    <img src={social5} alt="" />
+                    <img src={social6} alt="" />
+                    <img src={social7} alt="" />
+                  </div>
                 </div>
               </div>
             </div>
