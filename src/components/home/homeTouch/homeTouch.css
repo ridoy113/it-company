@@ -3,6 +3,8 @@
 }
 .home_touch_container{
     padding: 100px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 .home_touch_title{
     display: grid;
