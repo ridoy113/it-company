@@ -1,5 +1,6 @@
 import React from "react";
 import HomeAbout from "./homeAbout/HomeAbout";
+import HomeBlog from "./homeBlog/HomeBlog";
 import HomeHeader from "./homeHeader/HomeHeader";
 import HomePlannings from "./homePlanning/HomePlannings";
 import HomeServices from "./homeServices/HomeServices";
@@ -17,6 +18,7 @@ const Home = () => {
       <HomeServices />
       <HomeTeam />
       <HomeTouch />
+      <HomeBlog />
     </>
   );
 };
