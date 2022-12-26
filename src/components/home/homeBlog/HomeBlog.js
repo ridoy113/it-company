@@ -20,7 +20,7 @@ const HomeBlog = () => {
                 <div className="home_blog_grid_single_card_img">
                   <img src={homeBlogData.img} alt="" />
                 </div>
-                <h2>{homeBlogData.title}</h2>
+                <h3>{homeBlogData.title}</h3>
 
                 <div className="home_blog_grid_single_card_info">
                   <div className="home_blog_grid_single_card_info_logo">
