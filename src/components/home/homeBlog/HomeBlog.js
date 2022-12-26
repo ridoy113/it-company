@@ -4,10 +4,12 @@ import homeBlogDatas from "../../../data/homeBlogData.json";
 
 const HomeBlog = () => {
   return (
-    <>
+    <div className="home_blog">
       <div className="home_blog_container">
         <div className="home_blog_header">
-          <h4>\ Our Blog \</h4>
+          <div className="home_blog_small_header">
+            <h3>\ Our Blog \</h3>
+          </div>
           <h1>Latest Post</h1>
         </div>
 
@@ -32,7 +34,7 @@ const HomeBlog = () => {
           })}
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
