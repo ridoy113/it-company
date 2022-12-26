@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "img": "https://i.ibb.co/GchmpjQ/Rectangle-25-2.png",
+        "title": "The most Popular Business Of the Year",
+        "iconImg": "https://i.ibb.co/GQmJXYJ/Ellipse-5.png",
+        "name": "Ranold Jeff.",
+        "date": "May 4th, 2022"
+    },
+    {
+        "id": 2,
+        "img": "https://i.ibb.co/VNRznBF/Rectangle-25-1.png",
+        "title": "The most Popular Business Of the Year",
+        "iconImg": "https://i.ibb.co/nsmQQGW/Ellipse-5-1.png",
+        "name": "Patricia Anderson",
+        "date": "Apr 27th, 2022"
+    },
+    {
+        "id": 3,
+        "img": "https://i.ibb.co/Lk8hFgv/Rectangle-25.png",
+        "title": "The most Popular Business Of the Year",
+        "iconImg": "https://i.ibb.co/djhNNWs/Ellipse-5-2.png",
+        "name": "Elaine Luna",
+        "date": "Apr 20th, 2022"
+    }
+]
