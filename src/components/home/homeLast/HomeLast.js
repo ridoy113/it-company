@@ -6,7 +6,7 @@ const HomeLast = () => {
   return (
     <>
       <div className="home_last_container">
-        <div style={{ backgroundImage: `${lastBg}` }}>fjnofoi</div>
+        <div className="img">fjnofoi</div>
       </div>
     </>
   );
