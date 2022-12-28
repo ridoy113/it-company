@@ -15,6 +15,12 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
+.home_last_title{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-right: 137px;
+    padding-left: 137px;
+}
 
 
 
@@ -28,9 +34,17 @@ align-items: center;
         margin-bottom: 30px;
     }
     .img{
-        width: 220px;
-        height: auto;
+        background-image: none;
+    }
+    .img{
+        background-color: #0E1F51;
 
+    }
+    .home_last_title{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 37px;
+        padding-left: 37px;
     }
 }
 
@@ -43,5 +57,11 @@ align-items: center;
         margin-right: 70px;
         margin-top: 50px;
         margin-bottom: 50px;
+    }
+    .home_last_title{
+        padding-top: 20px;
+        padding-bottom: 40px;
+        padding-right: 37px;
+        padding-left: 37px;
     }
 }
