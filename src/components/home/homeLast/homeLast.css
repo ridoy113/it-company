@@ -21,7 +21,39 @@ align-items: center;
     padding-right: 137px;
     padding-left: 137px;
 }
-
+.home_last_title h1{
+    font-size: 32px;
+    line-height: 45px;
+    font-weight: 700;
+    color: aliceblue;
+    text-align: center;
+}
+.home_last_title_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.home_last_title_button button{
+    position: absolute;
+    background-color: #FF3E54;
+    border: none;
+    color: white;
+    width: 130px;
+    height: 40px;
+    border-radius: 4px;
+    font-weight: 500;
+    size: 20px;
+    cursor: pointer;
+}
+.home_last_title_button button:hover{
+    background-color: white;
+    border: 1px solid;
+    color: #FF3E54;
+    transition: 0.6s;
+    font-weight: 600;
+    size: 22px;
+}
 
 
 
@@ -46,6 +78,21 @@ align-items: center;
         padding-right: 37px;
         padding-left: 37px;
     }
+    .home_last_title h1{
+        font-size: 20px;
+        line-height: 25px;
+        font-weight: 500;
+    }
+    .home_last_title_button{
+        padding: 10px;
+    }
+    .home_last_title_button button{
+            width: 80px;
+            height: 30px;
+            font-weight: 400;
+            font-size: 10px;
+            cursor: pointer;
+    }
 }
 
 
@@ -61,7 +108,18 @@ align-items: center;
     .home_last_title{
         padding-top: 20px;
         padding-bottom: 40px;
-        padding-right: 37px;
-        padding-left: 37px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .home_last_title h1{
+        font-size: 26px;
+        line-height: 32px;
+        font-weight: 600;
+    }
+    .home_last_title_button button{
+        width: 120px;
+        height: 35px;
+        font-weight: 500;
+        size: 18px;
     }
 }

@@ -13,7 +13,7 @@ const HomeLast = () => {
               through Video”
             </h1>
             <div className="home_last_title_button">
-              <button>View More</button>
+              <button>Get In Touch</button>
             </div>
           </div>
         </div>
