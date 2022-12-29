@@ -14,6 +14,7 @@ height: auto;
 display: flex;
 justify-content: center;
 align-items: center;
+border-radius: 10px;
 }
 .home_last_title{
     padding-top: 60px;

@@ -67,7 +67,7 @@
     background: #F7F7F7;
     padding: 0.9rem;
     border-radius: 0.4rem;
-    margin-right: 2rem;
+    margin-right: 1rem;
 }
 .home_about_get_container h4{
     color: #0E1F51;
@@ -123,13 +123,13 @@
     background: #F7F7F7;
     padding: 0.7rem;
     border-radius: 0.4rem;
-    margin-right: 2rem;
+    margin-right: 0.8rem;
 }
 .home_about_get_container h4{
     color: #0E1F51;
     margin-top: 15px;
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 16px;
     letter-spacing: 1px;
 }
@@ -137,6 +137,8 @@
     font-size: 12px;
     font-weight: 400;
     margin-top: 25px;
+    line-height: 16px;
+    letter-spacing: 1px;
 }
 .home_about_get_container span{
     color: #FF3E54;
