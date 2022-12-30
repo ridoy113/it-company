@@ -55,12 +55,12 @@ const Navbar = () => {
             <li className="nav-item">
               <NavLink
                 exact
-                to="/contact"
+                to="/portfolio"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
               >
-                Contact Us
+                Portfolio
               </NavLink>
             </li>
           </ul>
