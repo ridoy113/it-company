@@ -1,7 +1,12 @@
 import React from "react";
+import PortfolioHeader from "./portfolioHeader/PortfolioHeader";
 
 const Portfolio = () => {
-  return <div>PortFolio</div>;
+  return (
+    <div>
+      <PortfolioHeader />
+    </div>
+  );
 };
 
 export default Portfolio;
