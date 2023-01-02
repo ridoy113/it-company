@@ -5,6 +5,7 @@ import Navbar from "./components/shaered/navbar/Navbar";
 import About from "./components/about/About";
 import Services from "./components/services/Services";
 import Portfolio from "./components/portfolio/Portfolio";
+import Blogs from "./components/blogs/Blogs";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services/>} />
         <Route path="/portfolio" element={<Portfolio/>} />
+        <Route path="/blogs" element={<Blogs/>} />
       </Routes>
     </BrowserRouter>
   );
