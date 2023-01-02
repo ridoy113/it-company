@@ -51,7 +51,7 @@ const Footer = () => {
           <div className="footer_grid-3">
             <h1>Career</h1>
             <h2></h2>
-            
+
             <div className="footer_carer_part">
               <div className="footer_carer_part_logo">
                 <h3>
@@ -97,13 +97,15 @@ const Footer = () => {
 
           <div className="footer_grid-4">
             <h1>Services</h1>
-            <span></span>
+            <h2></h2>
             <p>
               It is a long established fact that a reader will be distracted by
               the readable{" "}
             </p>
-            <input type="email" placeholder="Email" name="" id="" /> <br />
-            <button>Submit</button>
+            <div className="footer_grid-4_email">
+              <input type="email" placeholder="Email" name="" id="" /> <br />
+              <button>Submit</button>
+            </div>
           </div>
         </div>
       </div>
