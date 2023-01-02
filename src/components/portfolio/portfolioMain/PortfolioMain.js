@@ -29,6 +29,10 @@ const PortfolioMain = () => {
           <img src={gridImg5} alt="" />
         </div>
       </div>
+
+      <div className="portfolio_main_container_button">
+      <button>Get In Touch</button>
+      </div>
     </div>
   );
 };
