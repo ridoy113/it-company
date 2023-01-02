@@ -50,12 +50,13 @@ const Footer = () => {
 
           <div className="footer_grid-3">
             <h1>Career</h1>
-            <span></span>
+            <h2></h2>
+            
             <div className="footer_carer_part">
               <div className="footer_carer_part_logo">
-                <h1>
+                <h3>
                   <FaReact />
-                </h1>
+                </h3>
               </div>
               <div className="footer_carer_part_info">
                 <h5>ReactJs Dev.</h5>
@@ -67,9 +68,9 @@ const Footer = () => {
 
             <div className="footer_carer_part">
               <div className="footer_carer_part_logo">
-                <h1>
+                <h3>
                   <FaWordpressSimple />
-                </h1>
+                </h3>
               </div>
               <div className="footer_carer_part_info">
                 <h5>Wordpress Dev.</h5>
@@ -81,9 +82,9 @@ const Footer = () => {
 
             <div className="footer_carer_part">
               <div className="footer_carer_part_logo">
-                <h1>
+                <h3>
                   <FaWix />
-                </h1>
+                </h3>
               </div>
               <div className="footer_carer_part_info">
                 <h5>Python Developer</h5>
