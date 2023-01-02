@@ -29,7 +29,7 @@
 .footer_grid-1 p{
     font-size: 16px;
     color: white;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 30px;
 }
 .footer_grid-1_logo{
@@ -39,6 +39,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 70px;
+    cursor: pointer;
 }
 .footer_grid-1_logo h1{
     background-color: white;
@@ -52,6 +53,27 @@
     font-weight: 400;
 }
 
+
+
+.footer_grid-2 h1{
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+}
+.footer_grid-2 h2{
+    height: 5px;
+    width: 50px;
+    background-color: #FF3E54;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.footer_grid-2 p{
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    line-height: 30px;
+}
 
 
 

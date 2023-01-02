@@ -39,7 +39,7 @@ const Footer = () => {
 
           <div className="footer_grid-2">
             <h1>Services</h1>
-            <span></span>
+            <h2></h2>
             <p>Web Design/Development</p>
             <p>App Development</p>
             <p>UI/UX Design</p>
