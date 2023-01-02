@@ -8,17 +8,82 @@
     padding-right: 120px;
 }
 
-.
+.footer_grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 25px;
+}
+.footer_grid-1 h1{
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+}
+.footer_grid-1 h2{
+    height: 5px;
+    width: 50px;
+    background-color: #FF3E54;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.footer_grid-1 p{
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    line-height: 30px;
+}
+.footer_grid-1_logo{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+.footer_grid-1_logo h1{
+    background-color: white;
+    color: #FF3E54;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 24px;
+    font-weight: 400;
+}
 
 
 
 
 
 /* mobile */
-@media only screen and (min-width: 280px) and (max-width: 480px) {
+@media only screen and (min-width: 280px) and (max-width: 680px) {
     .footer_container{
         padding: 30px;
     }
+    .footer_grid{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+    }
+    .footer_grid-1_logo{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 0px;
+    }
+
+    .footer_grid-1_logo h1{
+        background-color: white;
+        color: #FF3E54;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        border-radius: 100px;
+        font-size: 24px;
+        font-weight: 400;
+    }
+    
 }
 
 
@@ -27,11 +92,19 @@
 
 
 /* tab */
-@media only screen and (min-width: 481px) and (max-width: 900px) {
+@media only screen and (min-width: 681px) and (max-width: 1100px) {
     .footer_container{
         padding-top: 50px;
         padding-bottom: 50px;
         padding-left: 70px;
         padding-right: 70px;
+    }
+    .footer_grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+    }
+    .footer_grid-1_logo{
+        margin-top: 40px;
     }
 }

@@ -16,7 +16,7 @@ const Footer = () => {
         <div className="footer_grid">
           <div className="footer_grid-1">
             <h1>About Us</h1>
-            <span></span>
+            <h2></h2>
             <p>
               It is a long established fact that a reader will be distracted by
               the readable content of a page when looking at
