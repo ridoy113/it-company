@@ -1,5 +1,13 @@
 import React from "react";
 import "./footer.css";
+import {
+  FaLinkedinIn,
+  FaFacebookF,
+  FaReact,
+  FaWordpressSimple,
+  FaWix,
+} from "react-icons/fa";
+import { AiOutlineTwitter, AiOutlineInstagram } from "react-icons/ai";
 
 const Footer = () => {
   return (
@@ -14,13 +22,88 @@ const Footer = () => {
               the readable content of a page when looking at
             </p>
             <div className="footer_grid-1_logo">
-                
+              <h1>
+                <FaLinkedinIn />
+              </h1>
+              <h1>
+                <FaFacebookF />
+              </h1>
+              <h1>
+                <AiOutlineTwitter />
+              </h1>
+              <h1>
+                <AiOutlineInstagram />
+              </h1>
             </div>
           </div>
 
-          <div>1</div>
-          <div>1</div>
-          <div>1</div>
+          <div className="footer_grid-2">
+            <h1>Services</h1>
+            <span></span>
+            <p>Web Design/Development</p>
+            <p>App Development</p>
+            <p>UI/UX Design</p>
+            <p>HubSpot Integration</p>
+            <p>Email Marketing</p>
+            <p>Website Migration</p>
+          </div>
+
+          <div className="footer_grid-3">
+            <h1>Career</h1>
+            <span></span>
+            <div className="footer_carer_part">
+              <div className="footer_carer_part_logo">
+                <h1>
+                  <FaReact />
+                </h1>
+              </div>
+              <div className="footer_carer_part_info">
+                <h5>ReactJs Dev.</h5>
+                <p>
+                  <small>1-5 Years of Exp.</small>
+                </p>
+              </div>
+            </div>
+
+            <div className="footer_carer_part">
+              <div className="footer_carer_part_logo">
+                <h1>
+                  <FaWordpressSimple />
+                </h1>
+              </div>
+              <div className="footer_carer_part_info">
+                <h5>Wordpress Dev.</h5>
+                <p>
+                  <small>1-5 Years of Exp.</small>
+                </p>
+              </div>
+            </div>
+
+            <div className="footer_carer_part">
+              <div className="footer_carer_part_logo">
+                <h1>
+                  <FaWix />
+                </h1>
+              </div>
+              <div className="footer_carer_part_info">
+                <h5>Python Developer</h5>
+                <p>
+                  <small>1-5 Years of Exp.</small>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="footer_grid-4">
+            <h1>Services</h1>
+            <span></span>
+            <p>
+              It is a long established fact that a reader will be distracted by
+              the readable{" "}
+            </p>
+            <input type="email" placeholder="Email" name="" id="" /> <br />
+            <button>Submit</button>
+          </div>
         </div>
       </div>
     </div>
