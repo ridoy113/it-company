@@ -63,6 +63,17 @@ const Navbar = () => {
                 Blogs
               </NavLink>
             </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/contact"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Contact
+              </NavLink>
+            </li>
           </ul>
           <div className="nav-icon" onClick={handleClick}>
             <i className={click ? <GoThreeBars /> : <GoThreeBars />}>

@@ -6,6 +6,7 @@ import About from "./components/about/About";
 import Services from "./components/services/Services";
 import Portfolio from "./components/portfolio/Portfolio";
 import Blogs from "./components/blogs/Blogs";
+import Contact from "./components/contact/Contact";
 
 function App() {
   return (
@@ -14,9 +15,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/services" element={<Services/>} />
-        <Route path="/portfolio" element={<Portfolio/>} />
-        <Route path="/blogs" element={<Blogs/>} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/blogs" element={<Blogs />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
   );
